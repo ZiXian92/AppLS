@@ -1,6 +1,10 @@
 # AppLS
 AppLS stands for *ls* on your app's *Document* directory. It is a simple-to-use plug-and-play app that allows iOS developers to visually see the directory organisation of their app's *Document* directory when debugging file-related issues.
 
+# Release Notes
+Release version: 1.0beta
+Currently, only the Swift version of the app is available. Version 1.0, which contains the Objective-C version, will be made available in the coming weeks.
+
 # Importing to project
 1. Download the repository.
 2. Open the project to which this app is to be imported to.
