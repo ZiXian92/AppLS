@@ -4,14 +4,15 @@ AppLS stands for *ls* on your app's *Document* directory. It is a simple-to-use 
 # Release Notes
 **Release version:** 1.0beta  
 Currently, only the Swift version of the app is available. Version 1.0, which contains the Objective-C version, will be made available as soon as possible(not anytime soon).  
-**.framework binaries:** Currently **NOT** available.
+**.framework binaries:** Framework binary for Swift version is **now available** for iOS simulator. Details of usage is described in the next section. Objective-C users currently have to do some bridging. Some fixing and test runs still need to be done for the Objective-C version.
 It is difficult for me to create the binaries that can be used in apps that are deployed onto iOS devices as I do not have any certificates to allow me to test on actual devices. The best I can do is to put up binaries for iOS simulator in the near future. If not, just import the source codes to your project as described in the "Usage" section. In that case, please use only the public class in your source codes. 
 
 # Importing to project
 1. Download the repository.
 2. Open the project to which this app is to be imported to.
-3. Click on **Files** -> **Add Files to ...**, and select the folder in the repository containing the project you wish to import.
-* Note: To easily keep an updated version of this app, fork and/or clone this repository and use file referencing instead of copying source files into your project. This way, updating this app is as simple as pulling changes from this repository.
+3. Drag the **.framework** file into your project.
+4. Click on your project and add the framework as **Embedded Binaries** under **General** tab.
+* Note: To easily keep an updated version of this app, fork and/or clone this repository and use file referencing instead of copying into your project. This way, updating this app is as simple as pulling changes from this repository.
  
 # Usage
 1. Go to the view controller from which to launch this app.
