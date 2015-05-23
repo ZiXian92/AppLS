@@ -5,7 +5,7 @@ AppLS stands for *ls* on your app's *Document* directory. It is a simple-to-use 
 **Release version:** 1.0beta  
 Currently, only the Swift version of the app is available. Version 1.0, which contains the Objective-C version, will be made available as soon as possible(not anytime soon).  
 **.framework binaries:** Framework binary for Swift version is **now available** for iOS simulator. Details of usage is described in the next section. Objective-C users currently have to do some bridging. Some fixing and test runs still need to be done for the Objective-C version.  
-P.S.: It is difficult for me to create the binaries that can be used in apps that are deployed onto iOS devices as I do not have any certificates to allow me to test on actual devices. The best I can do is to put up binaries for iOS simulator in the near future. If not, just import the source codes to your project as described in the "Usage" section. In that case, please use only the public class in your source codes. 
+P.S.: It is difficult for me to create the binaries that can be used in apps that are deployed onto iOS devices as I do not have any certificates to allow me to test on actual devices. The best I can do is to put up binaries for iOS simulator in the near future. If not, just import the source codes to your project. In that case, please use only the public class in your source codes. 
 
 # Importing to project
 1. Download the repository.
