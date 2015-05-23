@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A29051E1AEC7D75000F481A"
-               BuildableName = "AppLSSwift.framework"
-               BlueprintName = "AppLS-Swift"
-               ReferencedContainer = "container:AppLS-Swift.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A2905291AEC7D76000F481A"
-               BuildableName = "AppLS-SwiftTests.xctest"
-               BlueprintName = "AppLS-SwiftTests"
+               BlueprintIdentifier = "5A0DEE0F1AEFF21700C287A7"
+               BuildableName = "Universal"
+               BlueprintName = "Universal"
                ReferencedContainer = "container:AppLS-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,42 +28,23 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A2905291AEC7D76000F481A"
-               BuildableName = "AppLS-SwiftTests.xctest"
-               BlueprintName = "AppLS-SwiftTests"
-               ReferencedContainer = "container:AppLS-Swift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A29051E1AEC7D75000F481A"
-            BuildableName = "AppLSSwift.framework"
-            BlueprintName = "AppLS-Swift"
-            ReferencedContainer = "container:AppLS-Swift.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A29051E1AEC7D75000F481A"
-            BuildableName = "AppLSSwift.framework"
-            BlueprintName = "AppLS-Swift"
+            BlueprintIdentifier = "5A0DEE0F1AEFF21700C287A7"
+            BuildableName = "Universal"
+            BlueprintName = "Universal"
             ReferencedContainer = "container:AppLS-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -93,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A29051E1AEC7D75000F481A"
-            BuildableName = "AppLSSwift.framework"
-            BlueprintName = "AppLS-Swift"
+            BlueprintIdentifier = "5A0DEE0F1AEFF21700C287A7"
+            BuildableName = "Universal"
+            BlueprintName = "Universal"
             ReferencedContainer = "container:AppLS-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

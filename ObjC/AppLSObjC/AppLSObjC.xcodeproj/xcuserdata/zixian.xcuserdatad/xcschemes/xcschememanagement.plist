@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AppLS-Swift.xcscheme</key>
+		<key>AppLSObjC.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -14,35 +14,25 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Universal.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5A0DEDDD1AEFEB3300C287A7</key>
+		<key>5A120AB51AEE585C00CA6505</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A0DEDF11AEFEB3400C287A7</key>
+		<key>5A120AC01AEE585C00CA6505</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A0DEE0F1AEFF21700C287A7</key>
+		<key>5AB3E41F1AF06527004720D7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A29051E1AEC7D75000F481A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5A2905291AEC7D76000F481A</key>
+		<key>5AB3E4371AF06527004720D7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

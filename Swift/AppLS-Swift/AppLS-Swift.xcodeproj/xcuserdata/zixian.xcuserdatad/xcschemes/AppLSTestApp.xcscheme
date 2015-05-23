@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A29051E1AEC7D75000F481A"
-               BuildableName = "AppLSSwift.framework"
-               BlueprintName = "AppLS-Swift"
+               BlueprintIdentifier = "5A0DEDDD1AEFEB3300C287A7"
+               BuildableName = "AppLSTestApp.app"
+               BlueprintName = "AppLSTestApp"
                ReferencedContainer = "container:AppLS-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A2905291AEC7D76000F481A"
-               BuildableName = "AppLS-SwiftTests.xctest"
-               BlueprintName = "AppLS-SwiftTests"
+               BlueprintIdentifier = "5A0DEDF11AEFEB3400C287A7"
+               BuildableName = "AppLSTestAppTests.xctest"
+               BlueprintName = "AppLSTestAppTests"
                ReferencedContainer = "container:AppLS-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A2905291AEC7D76000F481A"
-               BuildableName = "AppLS-SwiftTests.xctest"
-               BlueprintName = "AppLS-SwiftTests"
+               BlueprintIdentifier = "5A0DEDF11AEFEB3400C287A7"
+               BuildableName = "AppLSTestAppTests.xctest"
+               BlueprintName = "AppLSTestAppTests"
                ReferencedContainer = "container:AppLS-Swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A29051E1AEC7D75000F481A"
-            BuildableName = "AppLSSwift.framework"
-            BlueprintName = "AppLS-Swift"
+            BlueprintIdentifier = "5A0DEDDD1AEFEB3300C287A7"
+            BuildableName = "AppLSTestApp.app"
+            BlueprintName = "AppLSTestApp"
             ReferencedContainer = "container:AppLS-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,15 +72,16 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A29051E1AEC7D75000F481A"
-            BuildableName = "AppLSSwift.framework"
-            BlueprintName = "AppLS-Swift"
+            BlueprintIdentifier = "5A0DEDDD1AEFEB3300C287A7"
+            BuildableName = "AppLSTestApp.app"
+            BlueprintName = "AppLSTestApp"
             ReferencedContainer = "container:AppLS-Swift.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,15 +91,16 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A29051E1AEC7D75000F481A"
-            BuildableName = "AppLSSwift.framework"
-            BlueprintName = "AppLS-Swift"
+            BlueprintIdentifier = "5A0DEDDD1AEFEB3300C287A7"
+            BuildableName = "AppLSTestApp.app"
+            BlueprintName = "AppLSTestApp"
             ReferencedContainer = "container:AppLS-Swift.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

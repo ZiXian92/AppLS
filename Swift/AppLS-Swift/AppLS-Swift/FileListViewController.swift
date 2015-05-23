@@ -17,8 +17,8 @@ class FileListViewController: UITableViewController {
     private let _dir: String
     private var _contents: [Descriptor]!
     
-    override init() {
-        _dir = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0] as String
+    init() {
+        _dir = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0] as! String
         super.init(nibName: nil, bundle: nil)
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Cancel, target: self, action: "rightButtonClicked:")
         _contents = getContents()
@@ -70,7 +70,7 @@ class FileListViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! UITableViewCell
         cell.textLabel?.text = _contents[indexPath.row].name
         if _contents[indexPath.row].isDir {
             cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
@@ -83,7 +83,7 @@ class FileListViewController: UITableViewController {
     
     private func getContents() -> [Descriptor] {
         var isDir: ObjCBool = false
-        let fileList = NSFileManager.defaultManager().contentsOfDirectoryAtPath(_dir, error: nil) as [String]
+        let fileList = NSFileManager.defaultManager().contentsOfDirectoryAtPath(_dir, error: nil) as! [String]
         var arr = [Descriptor]()
         arr.reserveCapacity(fileList.count)
         

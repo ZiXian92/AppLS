@@ -55,7 +55,7 @@ class FileDescriptorViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(_cellIdentifier, forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(_cellIdentifier, forIndexPath: indexPath) as! UITableViewCell
         let row = indexPath.row
         if row >= 0 && row < _keys.count {
             cell.textLabel?.text = _attributes[row]
@@ -73,7 +73,7 @@ class FileDescriptorViewController: UITableViewController {
 
 /// Defines each cell in the file descriptor list.
 class FileDescriptorCell: UITableViewCell {
-    override init() {
+    init() {
         super.init(style: UITableViewCellStyle.Value1, reuseIdentifier: nil)
     }
     

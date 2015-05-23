@@ -12,7 +12,7 @@ import Foundation
 import UIKit
 
 public class AppLS {
-    class var viewController: UINavigationController {
+    public class var viewController: UINavigationController {
         return UINavigationController(rootViewController: FileListViewController())
     }
 }
